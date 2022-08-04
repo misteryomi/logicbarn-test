@@ -3,17 +3,19 @@
 
 Docker is required to get the project running.
 
-Navigate to the project directory and nitiate the services by running the `docker compose up -d` or `./vendor/bin/sail up` command.
+Run `composer install` to get the required packages installed.
 
-Then run `composer install` to get the required packages installed.
+Navigate to the project directory and nitiate the services by running the `docker compose up -d` or `./vendor/bin/sail up` command.
 
 Next, run `./vendor/bin/sail npm run dev`.
 
 Navigate to `http://localhost` on your browser.
 
 Default db values are:
+```
 DB_USERNAME=root
 DB_PASSWORD=password
+```
 
 *This is for tests only, and not recommended for production projects*
 
